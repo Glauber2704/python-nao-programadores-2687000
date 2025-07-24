@@ -1,9 +1,18 @@
 # Declare 4 variáveis do tipo numérica
-
+a = 1
+b = 3
+c = 5
+d = 7
 
 # Crie uma estrutura condicional para comparar dois números
-
-
+if a > b:
+  print(f'{a} é maior que {b}')
+elif a > c:
+  print(f'{a} é maior que {c}')
+elif a < d:
+  print(f'{a} é maior que {d}')
+else:
+  print(f'{a} não é maior que {b} nem {c} e nem {d}')
 # Se a condição for verdadeira, imprima na tela uma mensagem informando que a condição foi cumprida e informando o número de maior valor
 
 
