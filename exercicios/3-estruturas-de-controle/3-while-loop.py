@@ -1,13 +1,15 @@
 # Crie duas variáveis do tipo numérica, uma sinalizando a fase atual do curso e outra o nível final
-cursos_linkedin = ['Riscos', 'Controles', 'Auditoria', 'GRC', 'Seguros']
-for curso in cursos_linkedin:
-  print(curso)
-# Crie um while loop que imprima na tela o nível atual
-print(list(range(5)))
-print(list(range(12,20,2)))
+nivel_atual = 1
+nivel_final = 5
 
-for item in range(3,10,3):
-  print(f'{item} número')
+while nivel_atual < nivel_final:
+  print(f'Você está avançando um nível do curso. Seu nível atual é {nivel_atual}')
+  nivel_atual += 1
 else:
-  print('Fim do loop')
+  nivel_atual = nivel_final
+  print(f'Você chegou no nível {nivel_atual}')
+
+  print('Parabéns')
+# Crie um while loop que imprima na tela o nível atual
+
 # Insira "else" no while loop anterior.
